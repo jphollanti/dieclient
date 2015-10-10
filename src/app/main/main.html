@@ -1,0 +1,15 @@
+<div class="container">
+    <h1>Die client</h1>
+
+    <p><img src="http://www.metropolia.fi/fileadmin/template/2015/images/logo.png" alt="Metropolia logo"></p>
+
+    <p>Press the button to roll the die.</p>
+
+    <p>You may be lucky today.</p>
+
+    <label for="result">Result:</label>
+    <input type="text" id="result" ng-model="dieRollResult" disabled/>
+    <button type="button" class="btn btn-primary" value="Roll"
+            ng-click="rollDie()">Roll it!
+    </button>
+</div>
